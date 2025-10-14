@@ -2,21 +2,26 @@
 
 A local automation framework that reads structured markdown files and fills out web forms automatically using Playwright MCP and Azure OpenAI. Built for developers and content creators who need to automate repetitive form submissions while maintaining complete control over their data.
 
-🔒 **All processing happens locally on your device - no data is sent to external services except for Azure OpenAI API calls.**
+[![Portfolio](https://img.shields.io/badge/Portfolio-shivamgoyal03.github.io-0366d6?style=flat-square&logo=github&logoColor=white)](https://shivamgoyal03.github.io/)
+[![Disclaimer](https://img.shields.io/badge/Disclaimer-FormPilot-e03c31?style=flat-square)](disclaimer.md)
+[![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)](LICENSE)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-ShivamGoyal03-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShivamGoyal03/)
 
-## ✨ Features
+> **All processing happens locally on your device - no data is sent to external services except for Azure OpenAI API calls.**
 
-- **📄 Markdown-Driven**: Define your form data in simple, structured markdown files
-- **🤖 AI-Powered Automation**: Uses Azure OpenAI (GPT-5/GPT-4o) for intelligent form filling
-- **🎭 Playwright MCP Integration**: Robust browser automation via Model Context Protocol
-- **🔄 Batch Processing**: Handle multiple entries with sequential or batched processing
-- **🎯 Smart Error Handling**: Adaptive retry logic with snapshot-based error recovery
-- **👀 Interactive Review**: Optional confirmation before each submission
-- **⚡ Fast Mode**: Optimized performance for bulk operations
-- **💾 Intelligent Caching**: Caches dropdown options and generated content
-- **� Fuzzy Matching**: Smart technology field selection based on content analysis
+## Features
 
-## 🚀 Quick Start
+- **Markdown-Driven**: Define your form data in simple, structured markdown files
+- **AI-Powered Automation**: Uses Azure OpenAI (GPT-5/GPT-4o) for intelligent form filling
+- **Playwright MCP Integration**: Robust browser automation via Model Context Protocol
+- **Batch Processing**: Handle multiple entries with sequential or batched processing
+- **Smart Error Handling**: Adaptive retry logic with snapshot-based error recovery
+- **Interactive Review**: Optional confirmation before each submission
+- **Fast Mode**: Optimized performance for bulk operations
+- **Intelligent Caching**: Caches dropdown options and generated content
+- **Fuzzy Matching**: Smart technology field selection based on content analysis
+
+## Quick Start
 
 ### Prerequisites
 
@@ -65,7 +70,7 @@ The automation will:
 - Fill forms automatically with smart field matching
 - Handle errors and retries automatically
 
-## 📋 Data Format
+## Data Format
 
 Structure your activities in markdown using this format:
 
@@ -103,7 +108,7 @@ Structure your activities in markdown using this format:
 - **Start Date / End Date**: For events/workshops
 - **Use Preview Image From Activity URL**: Boolean (defaults to true)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 FormPilot/
@@ -117,7 +122,7 @@ FormPilot/
 └── venv/                      # Virtual environment (auto-created)
 ```
 
-## 🔧 How It Works
+## How It Works
 
 ### Architecture
 
@@ -157,7 +162,7 @@ FormPilot/
    - **Auto-Generation**: Creates internal notes from descriptions when missing
    - **Character Limits**: Automatically rewrites content to fit form constraints
 
-## ⚙️ Configuration
+## Configuration
 
 ### Processing Modes
 
@@ -196,7 +201,7 @@ CUSTOM RULES:
 orchestrator.automation_agent.add_custom_rules(custom_rules)
 ```
 
-## 🛠️ Advanced Usage
+## Advanced Usage
 
 ### Technology Field Mapping
 
@@ -223,21 +228,21 @@ Comprehensive error handling includes:
 - **Progress Tracking**: Detailed timing and status information
 - **Failure Recovery**: Continue processing after individual failures
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **Local Processing**: All data processing happens on your machine
 - **API Usage**: Only Azure OpenAI API calls are made externally
 - **No Data Storage**: Framework doesn't persist sensitive data
 - **Browser Isolation**: Uses isolated browser profiles for automation
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Content Management**: Automate submissions to multiple platforms
 - **Research Documentation**: Bulk entry of research activities
 - **Portfolio Management**: Batch updates to professional profiles
 - **Event Registration**: Automated conference and workshop submissions
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -270,7 +275,7 @@ Enable verbose logging by checking the console output for detailed execution log
 - Error recovery attempts
 - Timing information
 
-## 📝 License & Disclaimer
+## License & Disclaimer
 
 This project is for educational and productivity purposes. Users are responsible for:
 
@@ -283,6 +288,6 @@ See [disclaimer.md](disclaimer.md) for complete disclaimer.
 
 ---
 
-**⚡ Built with Playwright MCP, Agno, and Azure OpenAI**
+**Built with Playwright MCP, Agno, and Azure OpenAI**
 
 *FormPilot - Automate web forms locally and intelligently.*
