@@ -1,0 +1,11 @@
+uvicorn
+pydantic
+requests
+python-dotenv
+openai
+mcp
+mcp[cli]
+semantic-kernel
+agno
+azure-ai-inference
+aiohttp
